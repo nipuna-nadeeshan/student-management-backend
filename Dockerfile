@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the port that the app will run on
-EXPOSE 3000
+EXPOSE 5000
 
 # Define environment variable (optional)
 ENV NODE_ENV=production
