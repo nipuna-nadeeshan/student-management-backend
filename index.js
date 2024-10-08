@@ -50,6 +50,9 @@ app.get("/students",(req,res)=>{
     res.send(students)
   })
 })
+app.get("/cicd-check",(req,res)=>{
+  res.send("CI/CD is working")
+});
 
 app.listen(5000,()=>{
   console.log('Server is running')
